@@ -137,20 +137,3 @@ footer {
         font-size: 32px;
     }
 }
-
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-::-webkit-scrollbar-track {
-    background: rgb(241, 241, 241);
-}
-
-::-webkit-scrollbar-thumb {
-    background: rgb(63, 81, 181);
-    border-radius: 5px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: rgb(26, 35, 126);
-}
