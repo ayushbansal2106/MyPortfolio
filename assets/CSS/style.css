@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: #f5f5f5;
-    color: #333;
+    background-color: rgb(245, 245, 245);
+    color: rgb(51, 51, 51);
     line-height: 1.6;
 }
 
@@ -16,37 +16,37 @@ body {
 }
 
 header {
-    background-color: #2c3e50;
-    color: white;
-    padding: 2rem;
-    margin-bottom: 2rem;
+    background-color: rgb(44, 62, 80);
+    color: rgb(255, 255, 255);
+    padding: 32px;
+    margin-bottom: 32px;
 }
 
 header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+    font-size: 40px;
+    margin-bottom: 16px;
 }
 
 section {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    margin: 2rem auto;
-    padding: 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 32px auto;
+    padding: 32px;
     max-width: 800px;
 }
 
 h2 {
-    color: #2c3e50;
-    border-bottom: 2px solid #3498db;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1.5rem;
+    color: rgb(44, 62, 80);
+    border-bottom: 2px solid rgb(52, 152, 219);
+    padding-bottom: 8px;
+    margin-bottom: 24px;
 }
 
 img {
     border-radius: 50%;
-    border: 3px solid #3498db;
-    margin: 1rem 0;
+    border: 3px solid rgb(52, 152, 219);
+    margin: 16px 0;
     transition: transform 0.3s ease;
 }
 
@@ -55,13 +55,13 @@ img:hover {
 }
 
 a {
-    color: #3498db;
+    color: rgb(52, 152, 219);
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #2980b9;
+    color: rgb(41, 128, 185);
 }
 
 table {
@@ -74,37 +74,37 @@ ul {
 }
 
 li {
-    background-color: #f8f9fa;
-    margin: 0.5rem 0;
-    padding: 0.5rem 1rem;
+    background-color: rgb(248, 249, 250);
+    margin: 8px 0;
+    padding: 8px 16px;
     border-radius: 4px;
-    border-left: 3px solid #3498db;
+    border-left: 3px solid rgb(52, 152, 219);
 }
 
 form {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 16px;
     max-width: 500px;
     margin: 0 auto;
 }
 
 label {
     font-weight: bold;
-    color: #2c3e50;
+    color: rgb(44, 62, 80);
 }
 
 input, textarea {
-    padding: 0.8rem;
-    border: 1px solid #ddd;
+    padding: 13px;
+    border: 1px solid rgb(221, 221, 221);
     border-radius: 4px;
     width: 100%;
 }
 
 button {
-    background-color: #3498db;
-    color: white;
-    padding: 0.8rem 1.5rem;
+    background-color: rgb(52, 152, 219);
+    color: rgb(255, 255, 255);
+    padding: 13px 24px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -112,28 +112,45 @@ button {
 }
 
 button:hover {
-    background-color: #2980b9;
+    background-color: rgb(41, 128, 185);
 }
 
 footer {
-    background-color: #2c3e50;
-    color: white;
+    background-color: rgb(44, 62, 80);
+    color: rgb(255, 255, 255);
     text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
+    padding: 16px;
+    margin-top: 32px;
 }
 
 @media (max-width: 768px) {
     section {
-        margin: 1rem;
-        padding: 1rem;
+        margin: 16px;
+        padding: 16px;
     }
     
     header {
-        padding: 1rem;
+        padding: 16px;
     }
     
     h1 {
-        font-size: 2rem;
+        font-size: 32px;
     }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(241, 241, 241);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(63, 81, 181);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(26, 35, 126);
 }
