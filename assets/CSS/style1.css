@@ -6,17 +6,17 @@
 }
 
 body {
-    background-color: rgb(240, 242, 245);
-    padding: 32px;
+    background-color: #f0f2f5;
+    padding: 2rem;
 }
 
 h1 {
-    color: rgb(26, 35, 126);
-    font-size: 40px;
-    margin-bottom: 32px;
+    color: #1a237e;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
 }
 
 .certificate-container {
@@ -30,11 +30,11 @@ ol {
 }
 
 li {
-    background: rgb(255, 255, 255);
-    margin-bottom: 32px;
-    padding: 32px;
+    background: white;
+    margin-bottom: 2rem;
+    padding: 2rem;
     border-radius: 15px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
 }
 
@@ -43,11 +43,11 @@ li:hover {
 }
 
 h3 {
-    color: rgb(48, 63, 159);
-    margin-bottom: 24px;
-    font-size: 24px;
-    border-bottom: 2px solid rgb(63, 81, 181);
-    padding-bottom: 8px;
+    color: #303f9f;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #3f51b5;
+    padding-bottom: 0.5rem;
 }
 
 img {
@@ -55,7 +55,7 @@ img {
     max-width: 800px;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     transition: transform 0.3s ease;
 }
 
@@ -64,28 +64,28 @@ img:hover {
 }
 
 button {
-    background-color: rgb(63, 81, 181);
-    color: rgb(255, 255, 255);
-    padding: 13px 24px;
+    background-color: #3f51b5;
+    color: white;
+    padding: 0.8rem 1.5rem;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1rem;
     transition: all 0.3s ease;
-    margin-top: 16px;
+    margin-top: 1rem;
 }
 
 button:hover {
-    background-color: rgb(26, 35, 126);
+    background-color: #1a237e;
     transform: translateY(-2px);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 hr {
     border: none;
     height: 2px;
-    background: linear-gradient(to right, transparent, rgb(63, 81, 181), transparent);
-    margin: 32px 0;
+    background: linear-gradient(to right, transparent, #3f51b5, transparent);
+    margin: 2rem 0;
 }
 
 a {
@@ -94,15 +94,15 @@ a {
 
 @media (max-width: 850px) {
     body {
-        padding: 16px;
+        padding: 1rem;
     }
 
     h1 {
-        font-size: 32px;
+        font-size: 2rem;
     }
 
     li {
-        padding: 16px;
+        padding: 1rem;
     }
 
     img {
@@ -112,7 +112,7 @@ a {
 
     button {
         width: 100%;
-        margin-top: 16px;
+        margin-top: 1rem;
     }
 }
 
@@ -136,14 +136,14 @@ li {
 }
 
 ::-webkit-scrollbar-track {
-    background: rgb(241, 241, 241);
+    background: #f1f1f1;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(63, 81, 181);
+    background: #3f51b5;
     border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(26, 35, 126);
+    background: #1a237e;
 }
