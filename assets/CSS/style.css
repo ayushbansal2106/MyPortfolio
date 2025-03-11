@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#LinkdIn{
+    size: 152.64px * 43.2px;
+}
+
+header {
+    background-color: rgb(44, 62, 80);
+    color: rgb(255, 255, 255);
+    padding: 32px;
+    margin-bottom: 32px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 32px auto;
+    padding: 32px;
+    max-width: 800px;
+}
+
+h2 {
+    color: rgb(44, 62, 80);
+    border-bottom: 2px solid rgb(52, 152, 219);
+    padding-bottom: 8px;
+    margin-bottom: 24px;
+}
+
+img {
+    border-radius: 50%;
+    border: 3px solid rgb(52, 152, 219);
+    margin: 16px 0;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+a {
+    color: rgb(52, 152, 219);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: rgb(41, 128, 185);
+}
+
+table {
+    width: 100%;
+    max-width: 600px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    background-color: rgb(248, 249, 250);
+    margin: 8px 0;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border-left: 3px solid rgb(52, 152, 219);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+    color: rgb(44, 62, 80);
+}
+
+input, textarea {
+    padding: 13px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 4px;
+    width: 100%;
+}
+
+button {
+    background-color: rgb(52, 152, 219);
+    color: rgb(255, 255, 255);
+    padding: 13px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(41, 128, 185);
+}
+
+footer {
+    background-color: rgb(44, 62, 80);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 16px;
+    margin-top: 32px;
+}
+
+@media (max-width: 768px) {
+    section {
+        margin: 16px;
+        padding: 16px;
+    }
+    
+    header {
+        padding: 16px;
+    }
+    
+    h1 {
+        font-size: 32px;
+    }
+}
